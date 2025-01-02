@@ -11,7 +11,7 @@ export class CatFact {
     const fact = document.getElementById("factDisplay") as HTMLBodyElement;
     button?.addEventListener("click", function () {
       button.onclick = () => {
-        fact;
+        data.fact;
       };
 
       // console.log(fact);
